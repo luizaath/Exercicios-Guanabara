@@ -1,0 +1,2 @@
+n1 = int(input("Digite quantos metros:"))
+print("O valor de {} metros é {} centimetros e {} milimetros." .format(n1, n1*100, n1*1000))

@@ -1,0 +1,8 @@
+n1 = int(input("Digite um numero de 100 a 9999: "))
+n2 = int(input("Digite outro numero de 100 a 9999: "))
+n3 = int(input("Digite outro numero de 100 a 9999: "))
+n5 = int(input("Digite outro numero de 100 a 9999: "))
+nums = [n1, n2, n3, n5]
+nums: list[int]
+print(sorted(nums))
+k = sorted(nums, reverse=True).count(sorted(nums)[0])

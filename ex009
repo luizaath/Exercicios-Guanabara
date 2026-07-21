@@ -1,0 +1,3 @@
+n1 = float(input ("Digite a altura:"))
+n2 = float(input ("Digite a largura:"))
+print("A area é {:.2f} m² e a tinta necessária para pintar a área é {:.2f} litros." .format(n1*n2, (n1*n2)/2))

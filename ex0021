@@ -1,0 +1,7 @@
+import random
+num = random.randint(0,5)
+adivinha = int(input("Digite um numero entre 0 e 5: "))
+if adivinha == num:
+    print("Parabéns! Você acertou!")
+else:
+    print("Você errou! O número escolhido pelo computador foi {}".format(num))

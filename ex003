@@ -1,0 +1,6 @@
+n1 = input("Digite algo:")
+print("O tipo primitivo desse valor e", type(n1))
+print("N1 so tem espacos? ", n1.isspace())
+print("N1 e um numero? ", n1.isnumeric())
+
+

@@ -1,0 +1,3 @@
+n1 = int(input("Digite um numero: "))
+print("O numero antecessor eh {} e o sucessor eh {}".format(n1-1, n1+1))
+
